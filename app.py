@@ -67,4 +67,4 @@ if not df.empty:
         df.to_csv(DB_FILE, index=False)
         st.success(f"Successfully cleared {bill_to_delete}!")
         st.rerun()
-else:
+    else:
