@@ -68,3 +68,4 @@ if not df.empty:
         st.success(f"Successfully cleared {bill_to_delete}!")
         st.rerun()
     else:
+        st.info("No active bills. Add one using the sidebar!")
